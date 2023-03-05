@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    border: 0px solid;
+    width: 80%;
+    height: 97vh;
+
+
+    
+}
+#maty{
+display: flex;
+flex: 2px;
+background-color: black;
+color: rgb(255, 0, 0);
+border: 10px;
+height: 1px;
+
+}
+.mat{
+    display: flex;
+    flex-direction: row;
+    flex: 20px;
+    height: 70px;
+}
+.mat .dp{
+display: flex;
+flex: 10px;
+border: 2px solid green;
+}
+.mat .lo{
+display: flex;
+flex: 10px;
+border: 2px solid rgb(166, 255, 0);
+}
